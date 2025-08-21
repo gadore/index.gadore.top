@@ -8,7 +8,7 @@
 </head>
 
 <style>
-  @import url('https://fonts.googleapis.com/css?family=Laila|Lobster');
+  @import url('/css/font.css');
 
   html,
   body {
@@ -244,7 +244,6 @@
   <script>
     window.onload = () => {
     const customPath = window.location.pathname
-	    console.log(customPath)
     if (customPath == '/feed.xml') {
 	    window.location.href = 'https://blog.gadore.top/feed.xml'
     }
